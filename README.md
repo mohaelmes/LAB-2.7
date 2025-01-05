@@ -27,8 +27,22 @@ coverage html  # Para generar un reporte en formato HTML
 
 ![image](https://github.com/user-attachments/assets/c3f42efc-8776-458c-9d51-5ee426109536)
 
+
+
 ![image](https://github.com/user-attachments/assets/41aaa00d-8172-4bcb-ba23-4d0ac55ec860)
 
 Esto crea una carpeta htmlcov con un informe navegable en el archivo index.html.
 
+## 4.  Instalar y Aplicar Trivy
+
+```
+sudo apt install wget -y
+wget https://github.com/aquasecurity/trivy/releases/latest/download/trivy_Linux-64bit.deb
+sudo dpkg -i trivy_Linux-64bit.deb
+```
+![image](https://github.com/user-attachments/assets/979b046a-10c6-4f5a-96f5-6ea9901346d5)
+
+![image](https://github.com/user-attachments/assets/4a17f56d-bf25-44cf-88b4-cf06be7ed5d3)
+
+![image](https://github.com/user-attachments/assets/34ac46f0-2dd3-4374-b76d-3854950b6172)
 
